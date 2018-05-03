@@ -44,11 +44,6 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
-      <assemblyIdentity name="Oracle.DataAccess" version="2.112.1.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="amd64" />
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
       <assemblyIdentity name="System.Core" version="3.5.0.0" publicKeyToken="b77a5c561934e089" language="neutral" processorArchitecture="msil" />
     </dependentAssembly>
   </dependency>
@@ -99,6 +94,18 @@
     </dependentAssembly>
   </dependency>
   <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="oracle.dataaccess.dll" size="1122304">
+      <assemblyIdentity name="Oracle.DataAccess" version="2.112.3.0" publicKeyToken="89B483F429C47342" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>iPMsNffyqSd98XVThcuiUz/6W8Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ThoughtWorks.QRCode.dll" size="6205440">
       <assemblyIdentity name="ThoughtWorks.QRCode" version="1.0.4778.30637" language="neutral" processorArchitecture="msil" />
       <hash>
@@ -118,7 +125,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ZoX+h8Ps7CUjozzadql/kWNmm3Q=</dsig:DigestValue>
+        <dsig:DigestValue>OUT3CtIXi53UImF1ZLRAsVSW04Q=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

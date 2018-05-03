@@ -432,7 +432,6 @@
     <Compile Include="updatebarcodeFrm.Designer.cs">
       <DependentUpon>updatebarcodeFrm.cs</DependentUpon>
     </Compile>
-    <None Include="WeightApp_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <None Include="report\12\ckcz.fr3">

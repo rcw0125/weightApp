@@ -11,14 +11,14 @@
     <deploymentProvider codebase="http://192.168.27.250/XGCZ/WeightApp.application" />
   </deployment>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="WeightApp.exe.manifest" size="8602">
+    <dependentAssembly dependencyType="install" codebase="WeightApp.exe.manifest" size="8976">
       <assemblyIdentity name="WeightApp.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="zh-CN" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>JDt51fNQCrgQbo3R7VwoGruADpE=</dsig:DigestValue>
+        <dsig:DigestValue>TPj4X2AnhnLMn7OkHxnnMOe/kUc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
